@@ -1,0 +1,263 @@
+:root {
+    --main-background: #ffffff;
+    --primary-text: #595959;
+    --body-background: #E5E5E5;
+    --orange-word: #FB6D3A;
+    --title-text: #000000;
+    --under-text: #A8A8A8;
+    --sidebar-background: #1E2939;
+    --sidebar-text:#8E949C;
+  }
+  body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: var(--primary-text);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+  .main-container{
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    width: 1200px;
+    height: 1319px;
+    background-color: var(--main-background);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  .none{
+    list-style: none;
+  }
+  
+  /* sidebar */
+  
+  .sidebar{
+    padding-top: 30px;
+    width: 370px;
+    height: 1319px;
+    background-color: var(--sidebar-background);
+  }
+  
+  /* contacts */
+  
+  .contacts_section{
+    margin-top: 51px;
+    margin-left: 40px;
+  }
+  .contacts-title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.23;
+    color: var(--main-background);
+  }
+  .contacts_item :not(:last-child){
+    margin-bottom: 14px;
+  }
+  .contacts_span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-background);
+  }
+  .contacts_link{
+    margin-left: 14px;
+    color: var(--sidebar-text);
+    text-decoration: none;
+  }
+  
+  /* tech-skills */
+  
+  .tech_section{
+    margin-top: 47px;
+    margin-left: 40px;
+  }
+  .tech_title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.23;
+    color: var(--main-background);
+  }
+  .tech_list{
+    list-style: none;
+  }
+  .tech_item::before {
+    content: "\2022";
+    color: var(--orange-word);
+    font-weight: bold;
+    display: inline-block;
+    width: 3em;
+    margin-left: -20px;
+    margin-right: -25px;
+  }
+  
+  .tech_item{
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-background);
+  }
+  
+  /* soft-skills */
+   
+  .soft_section{
+    margin-top: 47px;
+    margin-left: 40px;
+  }
+  .soft_title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.23;
+    color: var(--main-background);
+  }
+  .soft_list{
+    list-style: none;
+  }
+  .soft_item::before {
+    content: "\2022";
+    color: var(--orange-word);
+    font-weight: bold;
+    display: inline-block;
+    width: 3em;
+    margin-left: -20px;
+    margin-right: -25px;
+  }
+  .soft_item{
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-background);
+  }
+  
+  /* main */
+  
+  .main{
+    padding-top: 102px;
+    padding-left: 88px;
+    padding-right: 100px;
+  }
+  
+  /* resume-main */
+  
+  /* about_section */
+  
+  .about_section{
+    margin-bottom: 40px;
+  }
+  .about_title--profession{
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--title-text);
+  }
+  .about_title--name{
+    margin-bottom: 19px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.22;
+    color: var(--title-text);
+  }
+  
+  /* project_section */
+  
+  .project_section{
+    margin-bottom: 34px;
+  }
+  
+  .project_title{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.23;
+    color: var(--title-text);
+  }
+  
+  .project_list{
+    margin-left: -15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--title-text);
+  }
+  
+  .project_link{
+    margin-right: 4px;
+    margin-left: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-text);
+  }
+  
+  .project__text--color{
+    color: var(--primary-text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  .expirience__title{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.23;
+    color: var(--title-text);
+  }
+  .expirience__list{
+    list-style: none;
+  }
+  
+  .workplace__title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--title-text);
+  }
+  
+  .workplace__name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--orange-word);
+  }
+  
+  .workplace__date{
+    margin-top: 11px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.25;
+    color: var(--under-text);
+  }
+  
+  .workplace__list{
+    list-style: none;
+    margin-bottom: 33px;
+  }
+  
+  .workplace__item::before{
+    content: "\2022";
+    color: var(--title-text);
+    font-weight: bold;
+    display: inline-block;
+    width: 40px;
+    margin-left: 6px;
+    margin-right: -25px;
+  }
